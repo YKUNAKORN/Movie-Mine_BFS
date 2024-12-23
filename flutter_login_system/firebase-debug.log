@@ -1,0 +1,52 @@
+[debug] [2023-11-30T16:33:06.311Z] ----------------------------------------------------------------------
+[debug] [2023-11-30T16:33:06.313Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ingsu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-30T16:33:06.313Z] CLI Version:   12.9.1
+[debug] [2023-11-30T16:33:06.313Z] Platform:      win32
+[debug] [2023-11-30T16:33:06.313Z] Node Version:  v20.10.0
+[debug] [2023-11-30T16:33:06.313Z] Time:          Thu Nov 30 2023 23:33:06 GMT+0700 (เวลาอินโดจีน)
+[debug] [2023-11-30T16:33:06.313Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-30T16:33:06.378Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-30T16:33:06.378Z] > authorizing via signed-in user (ingsuksomphong@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\my app\flutter_login_system
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-30T16:33:37.676Z] Using project from CLI flag: loginapp-74340
+[debug] [2023-11-30T16:33:37.677Z] > refreshing access token with scopes: []
+[debug] [2023-11-30T16:33:37.678Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-11-30T16:33:37.678Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-11-30T16:33:37.881Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-11-30T16:33:37.881Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-11-30T16:33:37.891Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/loginapp-74340 [none]
+[debug] [2023-11-30T16:33:38.663Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/loginapp-74340 200
+[debug] [2023-11-30T16:33:38.663Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/loginapp-74340 {"projectId":"loginapp-74340","projectNumber":"307824709645","displayName":"LoginApp","name":"projects/loginapp-74340","resources":{"hostingSite":"loginapp-74340"},"state":"ACTIVE","etag":"1_e035b6e3-0fb6-4adf-81ce-1106b9ccd680"}
+[info] i  Using project loginapp-74340 (LoginApp) 
+[info] 
+=== Hosting Setup
+[debug] [2023-11-30T16:33:38.668Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/loginapp-74340 [none]
+[debug] [2023-11-30T16:33:39.073Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/loginapp-74340 200
+[debug] [2023-11-30T16:33:39.073Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/loginapp-74340 {"projectId":"loginapp-74340","projectNumber":"307824709645","displayName":"LoginApp","name":"projects/loginapp-74340","resources":{"hostingSite":"loginapp-74340"},"state":"ACTIVE","etag":"1_e035b6e3-0fb6-4adf-81ce-1106b9ccd680"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
